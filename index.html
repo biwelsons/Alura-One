@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Decodificador</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="reset.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    </head>
+    <body>
+        <header>
+            <div>
+                <img src="img/Logo.svg" alt="Logo Alura" id="logoalura">
+                <p class="desc">Desafio ONE - Decodificador</p>
+            </div>
+        </header>
+
+        <main>
+            <div class="principal">
+                <form>
+                    <label for="texto" class="label">Digite seu texto</label>
+                    <textarea name="" id="texto" cols="38" rows="9"></textarea>
+                    <p>
+                        <img src="img/Group.svg" alt="Exclamação para atenção"> 
+                        Apenas letras minúsculas, sem acentos e sem caracteres especiais.
+                    </p>
+                </form>
+                
+                <button class="botao" id="criptografar" onClick="criptografar()">Criptografar</button>
+                <button class="botao" id="descriptografar" onClick="descriptografar()">Descriptografar</button>
+                <button class="botao" id="limpar" onClick="limpar()">Limpar</button>
+            </div>
+
+            <div class="resultado" id="resultado">
+                <div id="mensagem">
+                    <img src="img/High quality products 1 1.svg" alt="Pessoa desenhada investigando um diamante com o auxilio de uma lupa">
+                    <h3>Nenhuma mensagem encontrada</h3>
+                    <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+            </div>
+        </main>
+
+		<footer>
+			<ul>
+				<li> Desenvolvido por Gabriel Figueiredo - 2023</li>
+				<li><a href="https://github.com/biwelsons" target="_blank"><i class="bi bi-github"></i></a></li>
+				<li><a href="https://www.linkedin.com/in/gabriel-figueiredo-de-souza/" target="_blank"><i class="bi bi-linkedin"></i></a></li>
+			</ul>	
+		</footer>
+        <script src=""></script>
+
+    </body>
+</html>
